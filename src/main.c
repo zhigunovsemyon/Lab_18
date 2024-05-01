@@ -25,7 +25,6 @@ void PrintEquation(Equation* f);
 
 int main()
 {
-	setlocale(LC_ALL, "ru");
 	double x, y;
 	Equation f1, f2;
 

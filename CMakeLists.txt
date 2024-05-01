@@ -10,6 +10,6 @@ if (POLICY CMP0141)
 endif()
 
 project ("Lab_18")
+file(GLOB SOURCE src/*.c)
 
-# Включите подпроекты.
-add_subdirectory ("Lab_18")
+add_executable (${PROJECT_NAME} ${SOURCE})
